@@ -1,0 +1,398 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+}
+
+.navbar {
+    margin: 2.5vw 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 2.2vw;
+    padding-right: 3vw;
+    font-weight: 700;
+    color: #222222;
+}
+
+.nav-login {
+    font-size: 1.1vw;
+    margin: 0.7vw 17vw 0 0;
+    font-weight: 600;
+    color: #73738D;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: #73738D;
+    font-size: 1.1vw;
+    font-weight: 600;
+    margin-right: 4vw;
+}
+
+.nav-try-button {
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: #1943EF;
+    background-color: white;
+    border-color: #1943EF;
+    border-radius: 2vw;
+    padding: 0.1vw 2.2vw;
+    margin-left: 2vw;
+}
+
+.hero-section {
+    padding-bottom: 20vw;
+}
+
+.main-title {
+    color: #222222;
+    padding-top: 12.5vw;
+    margin: 2vw 10vw 2vw 10vw;
+    width: 45vw;
+    font-size: 4.1vw;
+}
+
+.main-sub-title {
+    margin: 0 10vw;
+    width: 44vw;
+    color: #73738D;
+    line-height: 2.2vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.hero-img {
+    margin-top: -28vw;
+    margin-right: 7vw;
+    float: right;
+    width: 28vw;
+    height: 50vw;
+}
+
+.email-input {
+    margin-top: 2vw;
+    margin-left: 10vw;
+    border-radius: 4vw;
+    border-width: 0;
+    width: 42vw;
+    height: 3.5vw;
+    box-shadow: -0.1vw 0.2vw 4vw rgba(78, 78, 78, .1);
+    padding-left: 2vw;
+}
+
+.email-input::placeholder {
+    color: rgba(115, 115, 141);
+    font-family: Gilroy;
+    font-size: 1.1vw;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.try-button {
+    border-radius: 4vw;
+    border-width: 0;
+    background-color: #1943EF;
+    height: 3.8vw;
+    width: 14vw;
+    color: white;
+    font-size: 1.1vw;
+    margin-left: -14vw;
+    
+    cursor: pointer;
+}
+
+.try-button::placeholder {
+    padding-bottom: 0.5vw;
+}
+
+.info-section {
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 12vw;
+    margin-bottom: 8vw;
+}
+
+.info-section-left {
+    margin-top: -1vw;
+    width: 40vw;
+}
+
+.reminder-wrapper { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vw 2vw;
+    margin: 2vw 0;   
+    border-radius: 1.2vw;
+    width: 35vw;
+    box-shadow: -0.1vw 1vw 2vw rgba(78, 78, 78, .1);
+}
+
+.portrait {
+    width: 5vw;
+    height: 3.5vw;
+}
+
+.reminder-text {
+    color: rgba(34, 34, 34, 0.8);
+    font-size: 1.1vw;
+    font-weight: 500;
+    line-height: 1.7vw;
+    width: 35vw;
+    padding-left: 1vw;
+}
+
+.bold-text {
+    color: black;
+    font-weight: 600;
+}
+
+.follow-anchor {
+    color: #26C296;
+}
+
+.info-section-right {  
+    font-size: 1.1vw;
+    width: 35vw;
+    margin: -2vw 5vw 0vw 5vw;
+    float: right;
+}
+
+.info-header {
+    color: #222222;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+
+.info-sub-header {
+    font-weight: 500;
+    line-height: 2.2vw;
+    font-size: 1.5vw;
+    color: #73738D;
+}
+
+.features-wrapper {
+    display: grid;
+    grid-template-columns: 15vw 20vw;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    color: #73738D;
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin-top: 2vw;
+}
+
+.checkmark-green {
+    width: 1vw;
+    margin-right: 0.7vw;
+}
+
+.arrows {
+    position: absolute;
+    padding: 1vw;
+    background-color: #E4F7F2;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+}
+
+
+.info-header-two {
+    margin-top: 6vw;
+    width: 40vw;
+    margin-bottom: 5vw;
+}
+
+.member-wrapper {
+    border-radius: 1.4vw;
+    margin-left: 5vw;
+    margin-top: 7vw;
+    margin-bottom: 5vw;
+    width: 35vw;   
+    height: 22vw;
+    box-shadow: -0.1vw 1vw 2vw rgba(78, 78, 78, .1);
+    padding-left: 2vw;
+}
+
+.member-info-wrapper {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.member-info-main {
+    margin-left: 1vw;
+    margin-top: 0.4vw;
+}
+
+.big-portrait {
+    width: 5vw;
+    height: 5vw;
+}
+
+.name {
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: #222222;
+}
+
+.job {
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: #222222CC;
+}
+
+.member-info-sub {
+    margin-top: 3.5vw;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.member-info img {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-bottom: 1.5vw;
+    margin-right: 1.2vw;
+}
+
+.wrapper {
+    margin-top: 7vw;
+    box-shadow: -0.1vw 1vw 2vw rgba(78, 78, 78, .1);
+    padding: 2vw;
+    width: 35vw;
+    height: 13vw;
+    border-radius: 1.4vw;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header {
+    font-weight: 600;
+    color: #222222;
+    font-size: 1.8vw;
+    margin: 0; 
+}
+
+.sub-header {
+    margin: 0;
+    font-weight: 500;
+    color: #222222CC;
+    font-size: 1.1vw;
+}
+
+.dots {
+    width: 1.7vw;
+    margin-top: -2vw;
+}
+
+.sub-text {
+    width: 31.5vw;
+    margin-top: 2vw;
+    line-height: 1.7vw;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #73738DCC;
+}
+
+.molecul {
+    position: absolute;
+    left: 57%;
+    background-color: #E4F7F2;
+    padding: 1vw;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+}
+
+.about-wrapper {
+    margin-top: 7vw;
+    padding-left: 5.5vw;
+    width: 35vw;
+}
+
+.about-header {
+    margin-top: 1vw;
+    font-weight: 700;
+    font-size: 2.5vw;
+    color: #222222;
+}
+
+.about-text {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #73738D;
+    line-height: 2.2vw;
+}
+
+.banner-wrapper {
+    border-radius: 1.4vw;
+    padding: 2vw;
+    margin: 0 auto;
+    width: 85%;
+    box-shadow: -0.1vw 1vw 2vw rgba(78, 78, 78, .1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner-header {
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.banner-text {
+    font-weight: 500;
+    color: #73738D;
+}
+
+.banner-button {
+    border-width: 0;
+    border-radius: 2vw;
+    width: 15vw;
+    height: 3.2vw;
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 600;
+    background-color: #26C296;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h1 {
+    margin-top: 5vw;
+    font-size: 1.8vw;
+}
+
+footer div {
+    margin-top: 2vw ;
+    margin-bottom: 5vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: #73738D;
+}
